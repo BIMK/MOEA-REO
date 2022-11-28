@@ -1,0 +1,24 @@
+function  Xdist=calx(PointsX1,PointsY2)
+% Xdist(1)=PointsX1(3,1)-PointsX1(1,1);
+% Xdist(3)=PointsX1(5,1)-PointsX1(3,1);
+% Xdist(5)=PointsX1(7,1)-PointsX1(5,1);
+% Xdist(7)=PointsX1(9,1)-PointsX1(7,1);
+% Xdist(9)=PointsX1(11,1)-PointsX1(9,1);
+% Xdist(11)=PointsX1(13,1)-PointsX1(11,1);
+% Xdist(13)=PointsX1(15,1)-PointsX1(13,1);
+% Xdist(15)=PointsX1(17,1)-PointsX1(15,1);
+% Xdist(17)=PointsX1(19,1)-PointsX1(17,1);
+% Xdist(19)=PointsX1(21,1)-PointsX1(19,1);
+%  Xdist=vpa(Xdist,5);
+Xdist(1)=PointsX1(2,1)-PointsX1(1,1);
+Xdist(2)=PointsX1(3,1)-PointsX1(2,1);
+Xdist(3)=PointsX1(4,1)-PointsX1(3,1);
+Xdist(4)=PointsX1(5,1)-PointsX1(4,1);
+Xdist(5)=PointsX1(6,1)-PointsX1(5,1);
+Xdist(6)=PointsX1(7,1)-PointsX1(6,1);
+Xdist(7)=PointsX1(8,1)-PointsX1(7,1);
+Xdist(8)=PointsX1(9,1)-PointsX1(8,1);
+Xdist(9)=PointsX1(10,1)-PointsX1(9,1);
+Xdist(10)=PointsX1(11,1)-PointsX1(10,1);
+ Xdist=vpa(Xdist,5);
+end

@@ -1,0 +1,24 @@
+function Ydist=caly(PointsY2)
+% Ydist=zeros(1,18);
+% Ydist(2)=PointsY2(2)-PointsY2(4);
+% Ydist(4)=PointsY2(4)-PointsY2(6);
+% Ydist(6)=PointsY2(6)-PointsY2(8);
+% Ydist(8)=PointsY2(8)-PointsY2(10);
+% Ydist(10)=PointsY2(10)-PointsY2(12);
+% Ydist(12)=PointsY2(12)-PointsY2(14);
+% Ydist(14)=PointsY2(14)-PointsY2(16);
+% Ydist(16)=PointsY2(16)-PointsY2(18);
+% Ydist(18)=PointsY2(18)-PointsY2(20);
+%  Ydist=vpa(Ydist,5);
+ Ydist(1)=PointsY2(1)-PointsY2(2);
+Ydist(2)=PointsY2(2)-PointsY2(3);
+Ydist(3)=PointsY2(3)-PointsY2(4);
+Ydist(4)=PointsY2(4)-PointsY2(5);
+Ydist(5)=PointsY2(5)-PointsY2(6);
+Ydist(6)=PointsY2(6)-PointsY2(7);
+Ydist(7)=PointsY2(7)-PointsY2(8);
+Ydist(8)=PointsY2(8)-PointsY2(9);
+Ydist(9)=PointsY2(9)-PointsY2(10);
+Ydist(10)=PointsY2(10)-PointsY2(11);
+ Ydist=vpa(Ydist,5);
+end
