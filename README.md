@@ -7,6 +7,6 @@
 #### Usage method
 
 > ##### main function
-> The main function of MOEA-REO is in file DRMOEA.m
+> The main function of DR-MOEA-REO is in file DR-MOEA-REO.m
 > ##### load data function
-> The load data function is in file LOADdata.m
+> The load data function of DR-MOEA-REO is in file LOADdata.m
